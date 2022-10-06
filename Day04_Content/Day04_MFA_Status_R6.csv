@@ -1,0 +1,15 @@
+State,Id,type,flux_calue,flux_std,lb,ub
+reaction,R1,fixed,10,1,0,300
+reaction,R3,free,0,1,0,300
+reaction,R3_b,free,0,1,0,300
+reaction,R4,free,0,1,0,300
+reaction,R4_b,free,0,1,0,300
+reaction,R6,free,1,1,0,300
+reaction,R5,free,0,1,0,300
+metabolite,A_ex,fixed,100,1,0,300
+metabolite,A,fixed,100,1,0,300
+metabolite,B,fixed,100,1,0,300
+metabolite,C,fixed,100,1,0,300
+metabolite,D,fixed,100,1,0,300
+metabolite,C_ex,fixed,100,1,0,300
+metabolite,C_in,fixed,100,1,0,300

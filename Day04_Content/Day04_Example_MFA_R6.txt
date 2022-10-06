@@ -1,0 +1,48 @@
+#-------------------------------------------------------------------------------
+# Name:        Example_0_toymodel_model.txt
+#              Model definition file for Example 0 of mfapy
+#
+# Author:      Fumio_Matsuda
+#
+# Created:     12/06/2018
+# Copyright:   (c) Fumio_Matsuda 2021
+# Licence:     MIT license
+#-------------------------------------------------------------------------------
+#
+# Definition of metabolic reactions
+//Reactions
+
+R1	Aex --> A	Aex --> A	AB --> AB	(kegg:R00000)	0.0	300
+R2	A --> B	A --> B	AB --> AB	(kegg:R00000)	0.0	300
+R3	B --> C + D	B --> C + D	AB --> B + A	(kegg:R00709)	0.0	300
+R3b	C + D --> B	C + D --> B	A + B --> BA	(kegg:R00243)	0.0	300
+R4	C --> D	C --> D	A --> A	(kegg:R01197)	0.0	300
+R4b	D --> C	D --> C	A --> A	(kegg:R02164)	0.0	300
+R5	C --> Cex	C --> Cex	A --> A	(kegg:R01082)	0.0	300
+R6	Cin --> C	Cin --> C	A --> A	(kegg:R01082)	0.0	300
+
+#
+# Definition of metabolites
+//Metabolites
+Aex	2	no	carbonsource	no	(kegg:R00000)	0.0	300
+A	2	no	no	no	(kegg:C00011)	0.0	300
+B	2	no	no	no	(kegg:C00024)	0.0	300
+C	1	no	no	no	(kegg:C00036)	0.0	300
+D	1	no	no	no	(kegg:C00158)	0.0	300
+Cex	1	no	no	excreted	(kegg:R00000)	0.0	300
+Cin	1	no	carbonsource	no	(kegg:R00000)	0.0	300
+#
+# Definition of reversible reactions
+//Reversible_reactions
+R3rev	R3	R3b	(kegg:00000)	-300	300
+R4rev	R4	R4b	(kegg:00000)	-300	300
+
+#
+# Definition of Target fragments
+//Target_fragments
+A	gcms	A_1:2	use	C2
+B	gcms	B_1:2	use	C2
+C	gcms	C_1	use	C1
+D	gcms	D_1	use	C1
+
+//End
