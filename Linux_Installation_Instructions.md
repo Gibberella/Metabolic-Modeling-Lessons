@@ -167,7 +167,7 @@ h. If any (y/n) prompts come up during the installation, enter "y" and press ent
 
 ### 8. Confirm that everything is running
 
-We have a quick test notebook you can run to ensure that everything is installed correctly and functional. On the 2022 Metabolic Modeling Workshop GitHub page, you should see a bright green "Code" button to the top right of the file browser above all of this instructional text. Please click that and then select the bottom-most option on the drop-down (**Download Zip**) to download the contents of this GitHub repository. Once you've done that, unpack the contents of the repository to wherever is most convenient for you on your system. Then, **from the JupyterLab interface** in your browser, navigate to the folder you just unpacked. There will be a file titled
+We have a quick test notebook you can run to ensure that everything is installed correctly and functional. On the Metabolic Modeling Lessons GitHub page, you should see a bright green "Code" button to the top right of the file browser above all of this instructional text. Please click that and then select the bottom-most option on the drop-down (**Download Zip**) to download the contents of this GitHub repository. Once you've done that, unpack the contents of the repository to wherever is most convenient for you on your system. Then, **from the JupyterLab interface** in your browser, navigate to the folder you just unpacked. There will be a file titled
 ```
 Day00_TestNotebook.ipynb
 ```
@@ -183,4 +183,4 @@ Then, type:
 jupyter lab
 ```
 
-Open this in JupyterLab and you should see something like the image below. In the top-right of the Jupyter lab interface you should see a small circle with a name next to it - click the name and you'll be presented with a list of "kernels" to choose from. Select the **"ModelingWorkshop"** option. Then, follow the instructions in the notebook to run the single block of code in. Scroll down to confirm that the output below the code reads: "All Good!". If an error is passed instead, please take a screenshot of the error and send it to **kastejos@msu.edu** - I will get back to you as soon as possible to let you know how to proceed.
+Open this in JupyterLab and you should see something like the image below. In the top-right of the Jupyter lab interface you should see a small circle with a name next to it - click the name and you'll be presented with a list of "kernels" to choose from. Select the **"ModelingWorkshop"** option. Then, follow the instructions in the notebook to run the single block of code in. Scroll down to confirm that the output below the code reads: "All Good!". 
