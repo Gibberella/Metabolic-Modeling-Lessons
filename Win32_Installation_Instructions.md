@@ -1,17 +1,15 @@
-All of the hands-on exercises in this workshop will be done using code written in Python and packaged in Jupyter Notebooks. Python is a programming language commonly used in many different applications, including scientific computation and data analysis. Jupyter Notebooks are simply a way of viewing and interacting with Python code that allow us to quickly and easily view things like plots and graphs in the same environment we're doing our coding it. It also allows us to create some easy-to-use interfaces for interacting with our metabolic modeling simulations, which is why we've chosen them for this workshop.
+All of the hands-on exercises in this repository are written in Python and packaged in Jupyter Notebooks. Python is a programming language commonly used in many different applications, including scientific computation and data analysis. Jupyter Notebooks are simply a way of viewing and interacting with Python code that allow us to quickly and easily view things like plots and graphs in the same environment we're doing our coding it. It also allows us to create some easy-to-use interfaces for interacting with our metabolic modeling simulations.
 
-Before we get started, we need to make sure we have the following things installed:
-1. **Anaconda**
-2. **JupyterLab**
-3. **ipykernel**
-4. **seaborn**
-5. **ipywidgets**
-6. **cobrapy**
-7. **mfapy**
-8. **Zoom**
-9. **Discord**
+To run all of the content in this repository, you need to have the following things installed:
 
-Please follow the instructions below in the sequence presented to ensure you have everything you need installed on your system prior to the workshop.
+Anaconda
+JupyterLab
+ipykernel
+seaborn
+ipywidgets
+cobrapy
+mfapy
+Please follow the instructions below in the sequence presented to ensure you have everything you need installed on your system prior to running the metabolic modeling lesson code. For Linux or Win32 installation instructions, refer to the "Linux_Installation_Instructions" and "Win32_Installation_Instructions" files in this repository.
 
 
 ### Installation guide (For Windows 32-bit)
