@@ -30,11 +30,13 @@ sudo emerge x11-libs/libXau x11-libs/libxcb x11-libs/libX11 x11-libs/libXext x11
 https://www.anaconda.com/download/#linux
 ### 2. It's recommended that you verify the data with SHA-256, although it isn't necessary. To do so, enter:
 ```
-sha256sum/path/to/your/file
+sha256sum path/to/your/file
 ```
+TIP: For an easy way to find the full directory of a file, enter readlink -f *filename*
+Once you've verified the integrity of your file, you may move on.
 ### 3. Next, enter this to install Anaconda:
 ```
-bash ~/Downloads/Anaconda3-20XX.0X-Linux-x86_64.sh
+bash ~/Downloads/Anaconda3-2022.10-Linux-x86_64.sh
 ```
 NOTE: The numbers for the year are dependent on file name. Also, you can rename the file to make it easier to enter.
 
@@ -84,7 +86,7 @@ before proceeding.
 From the **Linux Terminal**, enter the following code:
 
 ```
-pip install jupyterlab
+pip install jupyterlab==3.3.2
 ```
 This will install JupyterLab, the interace we'll be using to interact with the metabolic modeling simulations, onto your system. If any (y/n) prompts come up during the installation, enter "y", without the quotation marks, and press enter. Once the installation is complete, confirm that everything worked by typing the following into the **Linux Terminal**:
 ```
@@ -99,7 +101,7 @@ A page with an interface like the one in the image below should show up in your 
 From the **Linux Terminal**, type 
 
 ```
-conda install ipykernel
+conda install ipykernel==6.9.1
 ```
 Once you've done that, type
 ```
