@@ -120,7 +120,8 @@ ipython kernel install --user --name=ModelingWorkshop
 From the **Linux Terminal**, enter the following code:
 
 ```
-pip install seaborn
+pip install seaborn==0.11.2
+
 ```
 
 ### 5. Install ipywidgets
@@ -128,7 +129,7 @@ pip install seaborn
 As you will see, the metabolic models we'll be working with have interactive sliders to allow you to vary parameter values. For this functionality, we'll need the latest version of the ipywidgets package. As before, from your **Linux Terminal**, type in and execute the following code:
 
 ```
-pip install ipywidgets
+pip install ipywidgets==7.6.5
 ```
 If any (y/n) prompts come up during the installation, enter "y" and press enter.
 
@@ -137,7 +138,7 @@ If any (y/n) prompts come up during the installation, enter "y" and press enter.
 In order to demonstrate Flux Balance Analysis (FBA) modeling, we'll need the Python distribution of COBRA. As before, from your **Linux Terminal**, type in and execute the following code:
 
 ```
-pip install cobra
+pip install cobra==0.25.0
 ```
 If any (y/n) prompts come up during the installation, enter "y" and press enter.
 
