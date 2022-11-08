@@ -80,7 +80,14 @@ conda activate ModelingWorkshop
 
 before proceeding.
 
+### 1b. Install pip
 
+"pip", our package installer isn't downloaded to this environment automatically.
+To rectify this, enter 
+```
+conda install pip==21.2.4
+```
+to install pip.
 ### 2. Install JupyterLab
 
 From the **Linux Terminal**, enter the following code:
