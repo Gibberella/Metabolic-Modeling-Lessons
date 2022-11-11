@@ -26,7 +26,7 @@ Follow the link here: https://www.anaconda.com/products/individual. Download the
 Your OS does not have the package installer 'pip' installed automatically. To install it, type
 
 ```
-sudo easy_install pip
+sudo easy_install pip==21.2.4
 ```
 into your Terminal Prompt to install it. 
 
@@ -38,9 +38,9 @@ Then, follow the guide as normal, but remember that your "Command Prompt" is cal
 Please make and then activate a new Anaconda environment specifically for this workshop. You can do this by opening up the **Anaconda Prompt** and typing:
 
 ```
-conda create --name ModelingWorkshop
+conda create --name ModelingWorkshop python=3
 ```
-
+Note: The specification for Python is to avoid any difficulties installing pip into the virtual environment.
 Followed by
 
 ```
