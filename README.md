@@ -1,5 +1,7 @@
 # Metabolic Modeling Lessons
 
+# Metabolic Modeling Educational Materials Associated with the following publication: https://doi.org/10.1101/2022.11.16.516820. Please see the publication for accompanying lecture notes. 
+
 # Prerequisites
 All of the hands-on exercises in this repository are written in Python and packaged in Jupyter Notebooks. Python is a programming language commonly used in many different applications, including scientific computation and data analysis. Jupyter Notebooks are simply a way of viewing and interacting with Python code that allow us to quickly and easily view things like plots and graphs in the same environment we're doing our coding it. It also allows us to create some easy-to-use interfaces for interacting with our metabolic modeling simulations.
 
